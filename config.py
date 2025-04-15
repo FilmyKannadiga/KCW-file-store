@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "21600420"))
 API_HASH = environ.get("API_HASH", "facf5d11a09cc5f4c25a27721e0a137f")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7702322138:AAGeVaRI9fCE0NcjDJ2ZqXO1qVgA0XTW7V8")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/zOZ.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6703898477').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "KCW_Filesharing_Bot") # without @
 PORT = environ.get("PORT", "8080")
